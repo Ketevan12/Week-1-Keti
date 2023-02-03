@@ -1,43 +1,261 @@
 <!DOCTYPE html>
 <html>
 
-</style>
+
+   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("p").toggleClass("main");
+      });
+      $("#one").click(function() {
+    $("#two").toggle();
+});
+    });
+    </script>
+    <style>
+      body {margin:25px;}
+
+
+      .green-text{
+color: #008000;
+position: center;
+}
+img {
+  max-width: 90%;
+  height: auto;
+  border-image-outset: 40px 40px;
+  border: black;
+  border-style: dashed;
+  border-radius: 100px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.blue-text{color: #58a8c8;
+position: center;}
+.white-text{color:  #d4e7ee}
+.pink-text{color: #ff00a6}
+.purple-text{color:rgb(176, 129, 200)}
+      .gradient-box{
+background-image: radial-gradient(rgb(212, 222, 122),rgb(165, 141, 141),rgb(90, 85, 162),black)}
+      .main {
+      font-size: 120%;
+      color: red;
+      font-family: oblong,sans-serif;
+text-align: center;
+    }
+#two{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background:rgb(0, 0, 0); 
+  width:150px; 
+  height: 150px;
+  padding: 100px;
+  display:none;
+  font-family: 'Shrikhand', cursive;
+  font-size: 50px;
+  border:30px;
+  border: #b4e2da;
+  color:rgb(255, 236, 23);
+  text-align: center;
+ 
+}
+      .block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+  border: #000000;
+  background-color: #000000;
+  color: rgb(238, 206, 76);
+  border-style: dashed;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+  
+    
+      .ul {
+        display: inline-block;
+    max-width:10%; /* limit width */
+    word-break:break-all; /* wrap extended text*/
+    border:1px solid rgb(0, 0, 0) /* demo */
+    }
+    body {
+  margin: 1rem;
+  font-family:  Helvetica; 
+  line-height: 1.5;
+  background:Black;
+  font-optical-sizing: 100px;
+  color:rgb(238, 206, 76);
+}
+li{
+  display: inline-block;
+    font-size: 28px;
+    padding: 45px 40px ; 
+    max-width:45%; /* limit width */
+    word-break:break-all; /* wrap extended text*/
+    border:1px solid rgb(0, 0, 0) /* demo */
+}
+
+.flex-wrap {
+  display: table-row;
+    font-size: 40px;
+  text-align: center;
+    Height:600px;
+  Width:600px;
+  flex-direction: column;
+  padding:10px;
+}
+flex-wrap> div { 
+
+    font-size: 40px;
+  flex-direction: row;
+  Height:600px;
+  Width:600px;
+ padding-left: 50px;
+}
+
+    </style>
     </head>
     <body>
+     
+  <img src="film.jpg" class="center" style="width:100%">
+  </div>
+</div>
+      <Title> Ketevans hompage </Title>
+      
+      <div id="one">
+      <button type="one"  class="block"> Welcome to my homepage!</button>  
+  
+       </div>
+       <div id="two">
+       Glad to have you here!
+       </div>
+      <li>1   <p> I took computer science in highschool where we largely focused on python and a bit of javascript. 
+        However last semester I learned more about coding in general using more html/css and a bit of JS</p></li>
+    </li> 
+      <li>2  <p> Javascript was the most confusing for me because the material wasn't fully covered in my class, so I wasn't able to comfortably start using it </p></li>
 
-      <h1>Prompt 1</h1> 
-      <p>What classes have you taken where you were exposed to HTML/CSS/JS?
-        I took computer science in highschool where we largely focused on python and a bit of javascript. 
-        However last semester I learned more about coding in general using more html/css and a bit of JS.</p>
-      <h2>Prompt 2 </h2>
-      <p> Which parts were the most confusing?
-        Javascript was the most confusing for me because the material wasn't fully covered in my class, so I wasn't able to comfortably start using it.</p>p>
-      <h3>Prompt 3</h3>
+      <li>3  <p> Right now I am not that well versed in coding so I hope to see how getting better at coding might show me how I would even want to use it </p></li>
+       
+      <li>4 <p> Html is required however css makes it look pretty and java makes it interactive and complex</p></li>
+      <li>5<p> Github hosts your code, and when you work on it the previous version that's saved on github isn't impacted. Github shows when you make progress and also allows others to look at your code </p></li>
+       <li>6
 
-      <h4>Prompt 4</h4>
-      <h5>Prompt 5</h5>
+<h1>Caesar salad</h1>
+<h2>Watermelon</h2>
+<h3>Caesar salad wrap</h3>
+<h4>Lindt chocolate</h4>
+<h5>Shrimp tempura
+</h5><h6>French fries</h6></li> 
+
+      
       <div class= "flex-wrap">
      <div>
-      <a id=link href="https://entry-1-keti.glitch.me">1 </a>
+      <a id=link href="https://www.basedesign.com">1 Base Desgin studio </a>
+      <p> one of my favorite graphic design studios whose website is also pretty interactive. I get inspired by them on how to make my work interesting but also not too busy. The colors and type choices they use are also important to me in my work so seeing them be able to make strong choices in their designs helps me see what works in different designs.
+      </p>
      </div>
      <div>
-       <a id=link href=" https://keti-entry-2.glitch.me/">2 </a>
-     </div>
- 
-     <div>
-       <a id=link href="https://keti-entry-3-.glitch.me"> 3 </a>
-     </div>
-     <div>
-       <a id=link href="https://keti-4-project.glitch.me/  "> 4 </a>
+       <a id=link href=" https://www.pinterest.com">2 Pinterest </a>
+       <p>Pinterest is helpful for me in developing mood boards and getting inspired for almost any
+        project I create. Also because Im always on there browsing different peoples work I am constantly getting inspired by others designs. I also save alot of work I enjoy which has helped me see what type of designs I enjoy most weather they are more minimalist or maximalist. 
+        </p>
      </div>
      <div>
-       <a id=link href="https://5-entry-keti.glitch.me"> 5 </a>
+       <a id=link href="https://www.youtube.com "> 3 Youtube</a>
+       <p> A lot of times when I need help or inspiration for the stuff I code, I go to youtube. One particular channel that is helpful with web design is Hyperflexed. They also help me see whats works with user experience and what works better aesthetically on apps and websites overall.
+      </p>
+
      </div>
-       <div>
-       <a id=link href="https://entry-7-keti.glitch.me/"> 6</a>
-     </div>
+    
+
+     <div class= "flex-wrap2">
+      <h1>Portugal</h1>
+      <div>
+       <a id=link href="https://goo.gl/maps/b2NN5mWgcx8w9o319">Lisbon</a>
+      <div>
+        <a id=link href=" https://www.pinterest.com">Porto
+        </a>
+      </div>
+      <div>
+        <a id=link href="https://www.youtube.com ">Coimbra
+        </a>
+        <h1>Germany</h1>
         <div>
-       <a id=link href="https://entry-8-keti.glitch.me/"> 7</a>
+         <a id=link href="https://goo.gl/maps/b2NN5mWgcx8w9o319">Berlin
+          </a>
+        <div>
+          <a id=link href=" https://www.pinterest.com"> 
+            Munich 
+           
+          </a>
+        </div>
+        <div>
+          <a id=link href="https://www.youtube.com ">Haamburg
+          </a>
+          <h1>Denmark</h1>
+          <div>
+           <a id=link href="https://goo.gl/maps/b2NN5mWgcx8w9o319">Copenhagen
+
+            
+            </a>
+          <div>
+            <a id=link href=" https://www.pinterest.com"> 
+              Odensa
+
+             
+            </a>
+          </div>
+          <div>
+            <a id=link href="https://www.youtube.com ">Helsingør
+            </a>
+  
+      </div>
+     
      </div>
+     <some text only seen in the code!>
+      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-camera-reels" viewBox="0 0 16 16">
+        <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
+        <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
+        <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+      </svg>
+
+  
+      
+      <ul class="green-text ">
+        <li>Wallows</li>
+      </ul>
+      <ul class="blue-text">
+        <li>Mac miller</li>
+      </ul>
+      <ul class="white-text">
+        <li>Frank ocean</li>
+      </ul>
+      <ul class="pink-text">
+        <li>Joji</li>
+      </ul>
+      <ul class="purple-text">
+        <li>SZA</li>
+      </ul>
+      
+    <ul class="gradient-box">
+      <li>Gradiants work in css by mixing the opacity of colors from two or more points. </li>
+    </ul>
+    <img src="film.jpg" class="center" style="width:100%">
+    <p>I would like my homepage to be calm and serene but also have a vintage feel. The current tone isn't exactly what I am going for, I wish I could add a grain over the homepage fully. 
+
+    </p>
     </body>
+  
+  </head>
 </html>
